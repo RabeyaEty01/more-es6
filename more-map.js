@@ -10,14 +10,15 @@ const products = [
     { name: 'sticky-note', price: 30, color: 'pink' },
     { name: 'water-glass', price: 3, color: 'white' }
 
-]
+];
 
 const productName = products.map(product => product.name);
 const productPrices = products.map(product => product.price);
 
-//products.map(product => console.log(product));
+products.map(product => console.log(product));
 
-products.forEach(product=> console.log(product));
+//products.forEach(product=> console.log(product));
+
 //console.log(productName);
 //console.log(productPrices);
 
