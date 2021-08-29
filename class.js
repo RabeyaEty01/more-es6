@@ -8,7 +8,7 @@ class Support {
         this.address = address;
 
     }
-    //function
+    //methode or function
     startSession() {
         console.log(this.name, 'start a support session');
 
@@ -22,6 +22,6 @@ const Noman = new Support('Abdullah Al Noman', 'Canada');
 amir.startSession();
 salman.startSession();
 //console.log(amir, salman, sharuk, Noman);
-console.log(salman,Noman);
+console.log(salman, Noman);
 
 //class er khetre kono property ke access korte chaile this.exmple diye likhte hobe
